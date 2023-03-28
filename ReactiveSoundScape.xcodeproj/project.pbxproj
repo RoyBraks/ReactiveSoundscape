@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3350F6AF29D31243004AECC5 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3350F6AE29D31243004AECC5 /* SoundManager.swift */; };
 		33AFB64129D310A700F22ABA /* ReactiveSoundScapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFB64029D310A700F22ABA /* ReactiveSoundScapeApp.swift */; };
 		33AFB64329D310A700F22ABA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFB64229D310A700F22ABA /* ContentView.swift */; };
 		33AFB64529D310A700F22ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AFB64429D310A700F22ABA /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		33AFB65329D310A800F22ABA /* ReactiveSoundScapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFB65229D310A800F22ABA /* ReactiveSoundScapeTests.swift */; };
 		33AFB65D29D310A800F22ABA /* ReactiveSoundScapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFB65C29D310A800F22ABA /* ReactiveSoundScapeUITests.swift */; };
 		33AFB65F29D310A800F22ABA /* ReactiveSoundScapeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFB65E29D310A800F22ABA /* ReactiveSoundScapeUITestsLaunchTests.swift */; };
+		33AFB66D29D310B900F22ABA /* pad_f-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33AFB66C29D310B900F22ABA /* pad_f-2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3350F6AE29D31243004AECC5 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		33AFB63D29D310A700F22ABA /* ReactiveSoundScape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveSoundScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AFB64029D310A700F22ABA /* ReactiveSoundScapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveSoundScapeApp.swift; sourceTree = "<group>"; };
 		33AFB64229D310A700F22ABA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		33AFB65829D310A800F22ABA /* ReactiveSoundScapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveSoundScapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AFB65C29D310A800F22ABA /* ReactiveSoundScapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveSoundScapeUITests.swift; sourceTree = "<group>"; };
 		33AFB65E29D310A800F22ABA /* ReactiveSoundScapeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveSoundScapeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33AFB66C29D310B900F22ABA /* pad_f-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pad_f-2.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,10 @@
 		33AFB63F29D310A700F22ABA /* ReactiveSoundScape */ = {
 			isa = PBXGroup;
 			children = (
+				33AFB66B29D310AF00F22ABA /* Sounds */,
 				33AFB64029D310A700F22ABA /* ReactiveSoundScapeApp.swift */,
 				33AFB64229D310A700F22ABA /* ContentView.swift */,
+				3350F6AE29D31243004AECC5 /* SoundManager.swift */,
 				33AFB64429D310A700F22ABA /* Assets.xcassets */,
 				33AFB64629D310A700F22ABA /* ReactiveSoundScape.entitlements */,
 				33AFB64729D310A700F22ABA /* Preview Content */,
@@ -127,6 +133,14 @@
 				33AFB65E29D310A800F22ABA /* ReactiveSoundScapeUITestsLaunchTests.swift */,
 			);
 			path = ReactiveSoundScapeUITests;
+			sourceTree = "<group>";
+		};
+		33AFB66B29D310AF00F22ABA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				33AFB66C29D310B900F22ABA /* pad_f-2.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33AFB66D29D310B900F22ABA /* pad_f-2.mp3 in Resources */,
 				33AFB64929D310A700F22ABA /* Preview Assets.xcassets in Resources */,
 				33AFB64529D310A700F22ABA /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +276,7 @@
 			files = (
 				33AFB64329D310A700F22ABA /* ContentView.swift in Sources */,
 				33AFB64129D310A700F22ABA /* ReactiveSoundScapeApp.swift in Sources */,
+				3350F6AF29D31243004AECC5 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
