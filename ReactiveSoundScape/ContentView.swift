@@ -9,16 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Button("Play Pad") {
-                SoundManager.soundManager.playSound()
-            }.padding(10)
-            Button("Stop Pad") {
-                SoundManager.soundManager.stopSound()
+            
+            // 1
+            NavigationView {
+                // 2
+                List {
+                    FeaturedImageSlider()
+                        .frame(height: 200)
+                        .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                } //: List
+                .navigationBarTitle("Featured", displayMode: .large)
             }
+            //: Navigation View
         }
-        .padding()
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -26,3 +29,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

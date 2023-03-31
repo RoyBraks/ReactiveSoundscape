@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3350F6AF29D31243004AECC5 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3350F6AE29D31243004AECC5 /* SoundManager.swift */; };
+		3397DD7029D6DD8900A80FF2 /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397DD6F29D6DD8900A80FF2 /* PadView.swift */; };
+		3397DD7229D6DE4500A80FF2 /* FeaturedImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397DD7129D6DE4500A80FF2 /* FeaturedImageSlider.swift */; };
 		33AFB64129D310A700F22ABA /* ReactiveSoundScapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFB64029D310A700F22ABA /* ReactiveSoundScapeApp.swift */; };
 		33AFB64329D310A700F22ABA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFB64229D310A700F22ABA /* ContentView.swift */; };
 		33AFB64529D310A700F22ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AFB64429D310A700F22ABA /* Assets.xcassets */; };
@@ -36,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3350F6AE29D31243004AECC5 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		3397DD6F29D6DD8900A80FF2 /* PadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadView.swift; sourceTree = "<group>"; };
+		3397DD7129D6DE4500A80FF2 /* FeaturedImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageSlider.swift; sourceTree = "<group>"; };
 		33AFB63D29D310A700F22ABA /* ReactiveSoundScape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveSoundScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AFB64029D310A700F22ABA /* ReactiveSoundScapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveSoundScapeApp.swift; sourceTree = "<group>"; };
 		33AFB64229D310A700F22ABA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,7 +104,8 @@
 				33AFB66B29D310AF00F22ABA /* Sounds */,
 				33AFB64029D310A700F22ABA /* ReactiveSoundScapeApp.swift */,
 				33AFB64229D310A700F22ABA /* ContentView.swift */,
-				3350F6AE29D31243004AECC5 /* SoundManager.swift */,
+				3397DD7129D6DE4500A80FF2 /* FeaturedImageSlider.swift */,
+				3397DD6F29D6DD8900A80FF2 /* PadView.swift */,
 				33AFB64429D310A700F22ABA /* Assets.xcassets */,
 				33AFB64629D310A700F22ABA /* ReactiveSoundScape.entitlements */,
 				33AFB64729D310A700F22ABA /* Preview Content */,
@@ -276,7 +279,8 @@
 			files = (
 				33AFB64329D310A700F22ABA /* ContentView.swift in Sources */,
 				33AFB64129D310A700F22ABA /* ReactiveSoundScapeApp.swift in Sources */,
-				3350F6AF29D31243004AECC5 /* SoundManager.swift in Sources */,
+				3397DD7229D6DE4500A80FF2 /* FeaturedImageSlider.swift in Sources */,
+				3397DD7029D6DD8900A80FF2 /* PadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
