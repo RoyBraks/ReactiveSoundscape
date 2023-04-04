@@ -7,6 +7,7 @@
 
 import SwiftUI
 import AVKit
+import CoreMotion
 
 struct PadView: View {
     
@@ -26,7 +27,8 @@ struct PadView: View {
     let range: ClosedRange<Double> = -12...12
     let step: Double = 1
     @State private var pitchShift: Double = 0
-
+    
+    @State private var accelerometerX: Double = 0
 
     var body: some View {
                 
@@ -65,6 +67,9 @@ struct PadView: View {
                 }
                 
                 Text("\(pitchShift, specifier: "%.f")")
+                    .foregroundColor(Color.white)
+                
+                Text("\(accelerometerX)")
                     .foregroundColor(Color.white)
 
             }
@@ -122,6 +127,25 @@ struct PadView: View {
         audioFileBuffer = nil
     }
     
+    let manager = CMMotionManager()
+    
+    func startAccelerometers() {
+       // Make sure the accelerometer hardware is available.
+        let manager = CMMotionManager()
+
+        // Read the most recent accelerometer value
+        accelerometerX = manager.accelerometerData!.acceleration.x
+
+
+        // How frequently to read accelerometer updates, in seconds
+        manager.accelerometerUpdateInterval = 0.1
+
+        // Start accelerometer updates on a specific thread
+        manager.startAccelerometerUpdates(to: .main) { (data, error) in
+            // Handle acceleration update
+        }
+    }
+
 }
 
 struct PadView_Previews: PreviewProvider {

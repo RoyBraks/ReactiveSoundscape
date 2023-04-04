@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33623C4429DC2B1B006B241F /* PianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C4329DC2B1B006B241F /* PianoView.swift */; };
+		33623C5329DC486A006B241F /* fs5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C4629DC4869006B241F /* fs5.mp3 */; };
+		33623C5429DC486A006B241F /* c6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C4729DC4869006B241F /* c6.mp3 */; };
+		33623C5529DC486A006B241F /* as5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C4829DC4869006B241F /* as5.mp3 */; };
+		33623C5629DC486A006B241F /* g5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C4929DC4869006B241F /* g5.mp3 */; };
+		33623C5729DC486A006B241F /* cs5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C4A29DC4869006B241F /* cs5.mp3 */; };
+		33623C5829DC486A006B241F /* b5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C4B29DC4869006B241F /* b5.mp3 */; };
+		33623C5929DC486A006B241F /* gs5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C4C29DC4869006B241F /* gs5.mp3 */; };
+		33623C5A29DC486A006B241F /* f5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C4D29DC4869006B241F /* f5.mp3 */; };
+		33623C5B29DC486A006B241F /* a5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C4E29DC4869006B241F /* a5.mp3 */; };
+		33623C5C29DC486A006B241F /* d5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C4F29DC486A006B241F /* d5.mp3 */; };
+		33623C5D29DC486A006B241F /* c5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C5029DC486A006B241F /* c5.mp3 */; };
+		33623C5E29DC486A006B241F /* ds5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C5129DC486A006B241F /* ds5.mp3 */; };
+		33623C5F29DC486A006B241F /* e5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33623C5229DC486A006B241F /* e5.mp3 */; };
+		33623C6229DC5AEA006B241F /* NoteC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C6129DC5AEA006B241F /* NoteC5.swift */; };
+		33623C6429DC664F006B241F /* NoteCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C6329DC664F006B241F /* NoteCS5.swift */; };
+		33623C6629DC6E17006B241F /* NoteD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C6529DC6E17006B241F /* NoteD5.swift */; };
+		33623C6829DC6E84006B241F /* NoteDS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C6729DC6E84006B241F /* NoteDS5.swift */; };
+		33623C6A29DC6EE5006B241F /* NoteE5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C6929DC6EE5006B241F /* NoteE5.swift */; };
+		33623C6C29DC6F06006B241F /* NoteF5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C6B29DC6F06006B241F /* NoteF5.swift */; };
+		33623C6E29DC6F1B006B241F /* NoteFS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C6D29DC6F1B006B241F /* NoteFS5.swift */; };
+		33623C7029DC6F2E006B241F /* NoteG5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C6F29DC6F2E006B241F /* NoteG5.swift */; };
+		33623C7229DC6F3F006B241F /* NoteGS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C7129DC6F3F006B241F /* NoteGS5.swift */; };
+		33623C7429DC6F55006B241F /* NoteA5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C7329DC6F55006B241F /* NoteA5.swift */; };
+		33623C7629DC6F69006B241F /* NoteAS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C7529DC6F69006B241F /* NoteAS5.swift */; };
+		33623C7829DC6F7C006B241F /* NoteB5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C7729DC6F7C006B241F /* NoteB5.swift */; };
+		33623C7A29DC6FD9006B241F /* MixerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33623C7929DC6FD9006B241F /* MixerSettings.swift */; };
 		3397DD7029D6DD8900A80FF2 /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397DD6F29D6DD8900A80FF2 /* PadView.swift */; };
 		3397DD7229D6DE4500A80FF2 /* FeaturedImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397DD7129D6DE4500A80FF2 /* FeaturedImageSlider.swift */; };
 		33AFB64129D310A700F22ABA /* ReactiveSoundScapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFB64029D310A700F22ABA /* ReactiveSoundScapeApp.swift */; };
@@ -37,6 +64,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33623C4329DC2B1B006B241F /* PianoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoView.swift; sourceTree = "<group>"; };
+		33623C4629DC4869006B241F /* fs5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fs5.mp3; sourceTree = "<group>"; };
+		33623C4729DC4869006B241F /* c6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c6.mp3; sourceTree = "<group>"; };
+		33623C4829DC4869006B241F /* as5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = as5.mp3; sourceTree = "<group>"; };
+		33623C4929DC4869006B241F /* g5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = g5.mp3; sourceTree = "<group>"; };
+		33623C4A29DC4869006B241F /* cs5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cs5.mp3; sourceTree = "<group>"; };
+		33623C4B29DC4869006B241F /* b5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b5.mp3; sourceTree = "<group>"; };
+		33623C4C29DC4869006B241F /* gs5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gs5.mp3; sourceTree = "<group>"; };
+		33623C4D29DC4869006B241F /* f5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = f5.mp3; sourceTree = "<group>"; };
+		33623C4E29DC4869006B241F /* a5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a5.mp3; sourceTree = "<group>"; };
+		33623C4F29DC486A006B241F /* d5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = d5.mp3; sourceTree = "<group>"; };
+		33623C5029DC486A006B241F /* c5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c5.mp3; sourceTree = "<group>"; };
+		33623C5129DC486A006B241F /* ds5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ds5.mp3; sourceTree = "<group>"; };
+		33623C5229DC486A006B241F /* e5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e5.mp3; sourceTree = "<group>"; };
+		33623C6129DC5AEA006B241F /* NoteC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteC5.swift; sourceTree = "<group>"; };
+		33623C6329DC664F006B241F /* NoteCS5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCS5.swift; sourceTree = "<group>"; };
+		33623C6529DC6E17006B241F /* NoteD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteD5.swift; sourceTree = "<group>"; };
+		33623C6729DC6E84006B241F /* NoteDS5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDS5.swift; sourceTree = "<group>"; };
+		33623C6929DC6EE5006B241F /* NoteE5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteE5.swift; sourceTree = "<group>"; };
+		33623C6B29DC6F06006B241F /* NoteF5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteF5.swift; sourceTree = "<group>"; };
+		33623C6D29DC6F1B006B241F /* NoteFS5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteFS5.swift; sourceTree = "<group>"; };
+		33623C6F29DC6F2E006B241F /* NoteG5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteG5.swift; sourceTree = "<group>"; };
+		33623C7129DC6F3F006B241F /* NoteGS5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteGS5.swift; sourceTree = "<group>"; };
+		33623C7329DC6F55006B241F /* NoteA5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteA5.swift; sourceTree = "<group>"; };
+		33623C7529DC6F69006B241F /* NoteAS5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAS5.swift; sourceTree = "<group>"; };
+		33623C7729DC6F7C006B241F /* NoteB5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteB5.swift; sourceTree = "<group>"; };
+		33623C7929DC6FD9006B241F /* MixerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerSettings.swift; sourceTree = "<group>"; };
 		3397DD6F29D6DD8900A80FF2 /* PadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadView.swift; sourceTree = "<group>"; };
 		3397DD7129D6DE4500A80FF2 /* FeaturedImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageSlider.swift; sourceTree = "<group>"; };
 		33AFB63D29D310A700F22ABA /* ReactiveSoundScape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveSoundScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +132,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33623C4529DC484F006B241F /* Piano */ = {
+			isa = PBXGroup;
+			children = (
+				33623C4E29DC4869006B241F /* a5.mp3 */,
+				33623C4829DC4869006B241F /* as5.mp3 */,
+				33623C4B29DC4869006B241F /* b5.mp3 */,
+				33623C5029DC486A006B241F /* c5.mp3 */,
+				33623C4729DC4869006B241F /* c6.mp3 */,
+				33623C4A29DC4869006B241F /* cs5.mp3 */,
+				33623C4F29DC486A006B241F /* d5.mp3 */,
+				33623C5129DC486A006B241F /* ds5.mp3 */,
+				33623C5229DC486A006B241F /* e5.mp3 */,
+				33623C4D29DC4869006B241F /* f5.mp3 */,
+				33623C4629DC4869006B241F /* fs5.mp3 */,
+				33623C4929DC4869006B241F /* g5.mp3 */,
+				33623C4C29DC4869006B241F /* gs5.mp3 */,
+			);
+			path = Piano;
+			sourceTree = "<group>";
+		};
+		33623C6029DC5A52006B241F /* PianoFiles */ = {
+			isa = PBXGroup;
+			children = (
+				33623C4529DC484F006B241F /* Piano */,
+				33623C4329DC2B1B006B241F /* PianoView.swift */,
+				33623C6129DC5AEA006B241F /* NoteC5.swift */,
+				33623C7929DC6FD9006B241F /* MixerSettings.swift */,
+				33623C6329DC664F006B241F /* NoteCS5.swift */,
+				33623C6529DC6E17006B241F /* NoteD5.swift */,
+				33623C6729DC6E84006B241F /* NoteDS5.swift */,
+				33623C6929DC6EE5006B241F /* NoteE5.swift */,
+				33623C6B29DC6F06006B241F /* NoteF5.swift */,
+				33623C6D29DC6F1B006B241F /* NoteFS5.swift */,
+				33623C6F29DC6F2E006B241F /* NoteG5.swift */,
+				33623C7129DC6F3F006B241F /* NoteGS5.swift */,
+				33623C7329DC6F55006B241F /* NoteA5.swift */,
+				33623C7529DC6F69006B241F /* NoteAS5.swift */,
+				33623C7729DC6F7C006B241F /* NoteB5.swift */,
+			);
+			path = PianoFiles;
+			sourceTree = "<group>";
+		};
 		33AFB63429D310A700F22ABA = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +201,7 @@
 				33AFB64029D310A700F22ABA /* ReactiveSoundScapeApp.swift */,
 				33AFB64229D310A700F22ABA /* ContentView.swift */,
 				3397DD7129D6DE4500A80FF2 /* FeaturedImageSlider.swift */,
+				33623C6029DC5A52006B241F /* PianoFiles */,
 				3397DD6F29D6DD8900A80FF2 /* PadView.swift */,
 				33AFB64429D310A700F22ABA /* Assets.xcassets */,
 				33AFB64629D310A700F22ABA /* ReactiveSoundScape.entitlements */,
@@ -250,9 +347,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33623C5C29DC486A006B241F /* d5.mp3 in Resources */,
+				33623C5729DC486A006B241F /* cs5.mp3 in Resources */,
+				33623C5529DC486A006B241F /* as5.mp3 in Resources */,
+				33623C5E29DC486A006B241F /* ds5.mp3 in Resources */,
+				33623C5429DC486A006B241F /* c6.mp3 in Resources */,
 				33AFB66D29D310B900F22ABA /* pad_f-2.mp3 in Resources */,
 				33AFB64929D310A700F22ABA /* Preview Assets.xcassets in Resources */,
+				33623C5A29DC486A006B241F /* f5.mp3 in Resources */,
+				33623C5B29DC486A006B241F /* a5.mp3 in Resources */,
 				33AFB64529D310A700F22ABA /* Assets.xcassets in Resources */,
+				33623C5929DC486A006B241F /* gs5.mp3 in Resources */,
+				33623C5D29DC486A006B241F /* c5.mp3 in Resources */,
+				33623C5329DC486A006B241F /* fs5.mp3 in Resources */,
+				33623C5829DC486A006B241F /* b5.mp3 in Resources */,
+				33623C5F29DC486A006B241F /* e5.mp3 in Resources */,
+				33623C5629DC486A006B241F /* g5.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +387,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33623C6E29DC6F1B006B241F /* NoteFS5.swift in Sources */,
 				33AFB64329D310A700F22ABA /* ContentView.swift in Sources */,
+				33623C6229DC5AEA006B241F /* NoteC5.swift in Sources */,
+				33623C7229DC6F3F006B241F /* NoteGS5.swift in Sources */,
 				33AFB64129D310A700F22ABA /* ReactiveSoundScapeApp.swift in Sources */,
 				3397DD7229D6DE4500A80FF2 /* FeaturedImageSlider.swift in Sources */,
+				33623C6429DC664F006B241F /* NoteCS5.swift in Sources */,
+				33623C7629DC6F69006B241F /* NoteAS5.swift in Sources */,
+				33623C7A29DC6FD9006B241F /* MixerSettings.swift in Sources */,
+				33623C7029DC6F2E006B241F /* NoteG5.swift in Sources */,
 				3397DD7029D6DD8900A80FF2 /* PadView.swift in Sources */,
+				33623C7829DC6F7C006B241F /* NoteB5.swift in Sources */,
+				33623C6829DC6E84006B241F /* NoteDS5.swift in Sources */,
+				33623C6A29DC6EE5006B241F /* NoteE5.swift in Sources */,
+				33623C6629DC6E17006B241F /* NoteD5.swift in Sources */,
+				33623C7429DC6F55006B241F /* NoteA5.swift in Sources */,
+				33623C6C29DC6F06006B241F /* NoteF5.swift in Sources */,
+				33623C4429DC2B1B006B241F /* PianoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

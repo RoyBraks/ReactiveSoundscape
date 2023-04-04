@@ -14,7 +14,11 @@ struct FeaturedImageSlider: View {
             TabView {
                 ForEach(images, id: \.self) { item in
                     ZStack {
-                        NavigationLink(destination: PadView()) {
+                        
+                        NavigationLink(destination:
+                                        item.description == "Pad" ? AnyView(PadView())
+                                       : AnyView(PianoView())
+                        ) {
                             Image(item)
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
