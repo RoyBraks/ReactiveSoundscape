@@ -44,6 +44,7 @@
 		33AFB65D29D310A800F22ABA /* ReactiveSoundScapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFB65C29D310A800F22ABA /* ReactiveSoundScapeUITests.swift */; };
 		33AFB65F29D310A800F22ABA /* ReactiveSoundScapeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFB65E29D310A800F22ABA /* ReactiveSoundScapeUITestsLaunchTests.swift */; };
 		33AFB66D29D310B900F22ABA /* pad_f-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33AFB66C29D310B900F22ABA /* pad_f-2.mp3 */; };
+		33D5253229E01222005AC6DE /* ProximityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D5253129E01222005AC6DE /* ProximityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		33AFB65C29D310A800F22ABA /* ReactiveSoundScapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveSoundScapeUITests.swift; sourceTree = "<group>"; };
 		33AFB65E29D310A800F22ABA /* ReactiveSoundScapeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveSoundScapeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		33AFB66C29D310B900F22ABA /* pad_f-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pad_f-2.mp3"; sourceTree = "<group>"; };
+		33D5253129E01222005AC6DE /* ProximityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,8 +203,9 @@
 				33AFB64029D310A700F22ABA /* ReactiveSoundScapeApp.swift */,
 				33AFB64229D310A700F22ABA /* ContentView.swift */,
 				3397DD7129D6DE4500A80FF2 /* FeaturedImageSlider.swift */,
-				33623C6029DC5A52006B241F /* PianoFiles */,
 				3397DD6F29D6DD8900A80FF2 /* PadView.swift */,
+				33623C6029DC5A52006B241F /* PianoFiles */,
+				33D5253029E011A1005AC6DE /* ProximityMeter */,
 				33AFB64429D310A700F22ABA /* Assets.xcassets */,
 				33AFB64629D310A700F22ABA /* ReactiveSoundScape.entitlements */,
 				33AFB64729D310A700F22ABA /* Preview Content */,
@@ -241,6 +244,14 @@
 				33AFB66C29D310B900F22ABA /* pad_f-2.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		33D5253029E011A1005AC6DE /* ProximityMeter */ = {
+			isa = PBXGroup;
+			children = (
+				33D5253129E01222005AC6DE /* ProximityView.swift */,
+			);
+			path = ProximityMeter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +407,7 @@
 				33623C6429DC664F006B241F /* NoteCS5.swift in Sources */,
 				33623C7629DC6F69006B241F /* NoteAS5.swift in Sources */,
 				33623C7A29DC6FD9006B241F /* MixerSettings.swift in Sources */,
+				33D5253229E01222005AC6DE /* ProximityView.swift in Sources */,
 				33623C7029DC6F2E006B241F /* NoteG5.swift in Sources */,
 				3397DD7029D6DD8900A80FF2 /* PadView.swift in Sources */,
 				33623C7829DC6F7C006B241F /* NoteB5.swift in Sources */,

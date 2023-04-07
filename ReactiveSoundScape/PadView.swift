@@ -26,6 +26,7 @@ struct PadView: View {
     
     let range: ClosedRange<Double> = -12...12
     let step: Double = 1
+    
     @State private var pitchShift: Double = 0
     
     @State private var accelerometerX: Double = 0
@@ -105,6 +106,7 @@ struct PadView: View {
         let audioFormat = audioFile.processingFormat
         let audioFrameCount = UInt32(audioFile.length)
         guard let buffer = AVAudioPCMBuffer(pcmFormat: audioFormat, frameCapacity: audioFrameCount) else { return }
+        
         do {
             try audioFile.read(into: buffer)
             audioPlayerNode.scheduleBuffer(buffer, at: nil, options: [.loops])
@@ -145,7 +147,6 @@ struct PadView: View {
             // Handle acceleration update
         }
     }
-
 }
 
 struct PadView_Previews: PreviewProvider {
