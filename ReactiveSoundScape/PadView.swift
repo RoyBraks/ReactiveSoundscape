@@ -24,12 +24,13 @@ struct PadView: View {
     
     @State var isPlaying = false
     
-    let range: ClosedRange<Double> = -12...12
-    let step: Double = 1
-    
     @State private var pitchShift: Double = 0
     
-    @State private var accelerometerX: Double = 0
+    @State private var isClose = false
+    
+    init(){
+        UIDevice.current.isProximityMonitoringEnabled = true
+    }
 
     var body: some View {
                 
@@ -57,20 +58,21 @@ struct PadView: View {
                     .buttonStyle(.bordered)
                     .padding(10)
                 }
-                Slider(
-                    value: $pitchShift,
-                    in: range
-                ) {
-                    Text("Pitch")
-                } onEditingChanged: { _ in
-                    pitchControl.pitch = Float((pitchShift*10)+425)
-                    speedControl.rate = Float((((pitchShift*10)+425)/500))
-                }
+            
+                Text("\(String(isClose))")
+                    .onReceive(NotificationCenter.default.publisher(for: UIDevice.proximityStateDidChangeNotification)) { _ in
+                        if UIDevice.current.proximityState {
+                            isClose = true
+                            pitchControl.pitch = Float((pitchShift*10)+425)
+                            speedControl.rate = Float((((pitchShift*10)+425)/500))
+                        } else {
+                            isClose = false
+                            pitchControl.pitch = Float((pitchShift*10)+525)
+                            speedControl.rate = Float((((pitchShift*10)+525)/500))
+                        }
+                    }
                 
                 Text("\(pitchShift, specifier: "%.f")")
-                    .foregroundColor(Color.white)
-                
-                Text("\(accelerometerX)")
                     .foregroundColor(Color.white)
 
             }
@@ -127,25 +129,6 @@ struct PadView: View {
         audioEngine.reset()
         // Release the audio file buffer
         audioFileBuffer = nil
-    }
-    
-    let manager = CMMotionManager()
-    
-    func startAccelerometers() {
-       // Make sure the accelerometer hardware is available.
-        let manager = CMMotionManager()
-
-        // Read the most recent accelerometer value
-        accelerometerX = manager.accelerometerData!.acceleration.x
-
-
-        // How frequently to read accelerometer updates, in seconds
-        manager.accelerometerUpdateInterval = 0.1
-
-        // Start accelerometer updates on a specific thread
-        manager.startAccelerometerUpdates(to: .main) { (data, error) in
-            // Handle acceleration update
-        }
     }
 }
 
